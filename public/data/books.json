@@ -1,6 +1,6 @@
 {
 	"items":[
-		{"id":101,"title":"Robinson Crusoe", "author":"defoe", "pic":"/images/crusoe.jpeg"},
+		{"id":101,"title":"Robinson Crusoe", "author":"defoe", "pic":"images/crusoe.jpeg"},
 		{"id":102,"title":"The Trial", "author":"Kafka", "pic":"images/kafka.jpeg"},
 		{"id":103,"title":"The red and the black", "author":"Stendhal", "pic":"images/stendal.jpeg"},
 		{"id":104,"title":"Madame Bovary", "author":"Flaubert", "pic":"images/flaubert.jpeg"},
