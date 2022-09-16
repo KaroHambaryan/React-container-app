@@ -1,4 +1,6 @@
 import React from 'react';
+import Book from './pages/Book';
+
 import './App.css';
 
 class App extends React.Component {
@@ -23,14 +25,15 @@ class App extends React.Component {
 				<h1> Welcome to Book Store </h1>
 				<div id='books'>
 					{
-						books.map((elm, index) => {
+						books.map((elm) => {
 							return (
-								<div key={elm.id}>
-									<img src={elm.pic} alt="altfoto" />
-									<h5>{elm.title}</h5>
-									<p>By { elm.author }</p>
-								</div>
-							);
+								<Book
+									key={elm.id}
+									id={elm.id}
+									title={elm.title}
+									author={elm.author}
+									pic={elm.pic}
+								/>);
 						})
 					}
 				</div>
